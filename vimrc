@@ -1,5 +1,8 @@
 " created by blaxeep
 
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags
+
 set encoding=utf8
 set paste
 set expandtab
@@ -26,3 +29,7 @@ filetype on                     "Enable filetype detection
 set cursorline                    "Highlight current line
 
 command! Status echo "All systems are go!"
+
+if has("autocmd")
+    filetype plugin indent on
+endif
