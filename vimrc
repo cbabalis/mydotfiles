@@ -4,8 +4,9 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags
 
 set encoding=utf8
-set paste
+set paste " helps to copy-paste without indentation problems
 set expandtab
+" retab! use this only if you need to re-set all tabs to spaces! :)
 set textwidth=0
 set tabstop=4
 set softtabstop=4
