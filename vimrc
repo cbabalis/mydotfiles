@@ -24,3 +24,5 @@ set guifont=Inconsolata\ 10
 "gtziligkakis lines
 filetype on                     "Enable filetype detection
 set cursorline                    "Highlight current line
+
+command! Status echo "All systems are go!"
