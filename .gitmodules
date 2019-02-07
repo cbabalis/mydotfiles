@@ -7,3 +7,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/robotframework-vim"]
+	path = bundle/robotframework-vim
+	url = git://github.com/mfukar/robotframework-vim.git
