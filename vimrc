@@ -51,3 +51,6 @@ au BufNewFile,BufRead *.js, *.html, *.css
 
 " flagging unnecessary whitespace
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
+" autocomplete YouCompleteMe plugin
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
