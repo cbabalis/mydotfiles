@@ -54,3 +54,6 @@ au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 " autocomplete YouCompleteMe plugin
 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+map <Tab> <C-P>
+" uncomment this if in appropriate env
+" let g:ycm_extra_conf_globlist = ['/home/test/workspace/this_repo_of_mine']
