@@ -8,3 +8,5 @@ git submodule update --init --recursive
 python install.py --all
 
 cd ../../
+
+cp -R * bundle/robotframework-vim/ ../.
