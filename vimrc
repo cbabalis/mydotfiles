@@ -5,6 +5,8 @@
 
 execute pathogen#infect()
 
+filetype plugin indent on
+syntax on
 
 set encoding=utf8
 set paste " helps to copy-paste without indentation problems
@@ -23,13 +25,11 @@ set wildmenu
 set commentstring=\ #\ %s
 set foldlevel=0
 set clipboard+=unnamed
-syntax on
 set showmatch   " for brackets. remove it if no scroll down is permitted
 set hlsearch    " highlight searching
 set guifont=Inconsolata\ 10
 
-"gtziligkakis lines
-filetype on                     "Enable filetype detection
+"filetype on                     "Enable filetype detection
 set cursorline                    "Highlight current line
 
 command! Status echo "All systems are go!"
@@ -63,3 +63,6 @@ map <Tab> <C-P>
 
 " flake8 for python
 autocmd BufWritePost *.py call Flake8()
+
+let python_highlight_all=1
+syntax on

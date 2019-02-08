@@ -3,4 +3,8 @@ cd .vim
 git submodule init
 git submodule update
 
-python bundle/YouCompleteMe/install.py --all
+cd bundle/YouCompleteMe/
+git submodule update --init --recursive
+python install.py --all
+
+cd ../../
