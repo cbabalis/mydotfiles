@@ -1,7 +1,10 @@
 " created by blaxeep
 
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags
+"call pathogen#runtime_append_all_bundles()
+"call pathogen#helptags
+
+execute pathogen#infect()
+
 
 set encoding=utf8
 set paste " helps to copy-paste without indentation problems
@@ -57,3 +60,6 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 map <Tab> <C-P>
 " uncomment this if in appropriate env
 " let g:ycm_extra_conf_globlist = ['/home/test/workspace/this_repo_of_mine']
+
+" flake8 for python
+autocmd BufWritePost *.py call Flake8()

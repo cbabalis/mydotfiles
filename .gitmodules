@@ -10,3 +10,6 @@
 [submodule "bundle/robotframework-vim"]
 	path = bundle/robotframework-vim
 	url = git://github.com/mfukar/robotframework-vim.git
+[submodule "bundle/vim-flake8"]
+	path = bundle/vim-flake8
+	url = git://github.com/nvie/vim-flake8.git
